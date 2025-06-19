@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DUSTOR Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <h1>DUSTOR Settings</h1>
+    <form id="settings-form">
+      <label>
+        <input type="checkbox" id="block-ads" checked>
+        Block Ads
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" id="block-trackers" checked>
+        Block Trackers
+      </label>
+      <br><br>
+      <label for="custom-domains">Custom Blocked Domains (comma separated):</label>
+      <br>
+      <textarea id="custom-domains" rows="3" cols="30"></textarea>
+      <br><br>
+      <button type="submit">Save Settings</button>
+    </form>
+    <div id="status"></div>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html> 

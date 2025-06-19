@@ -1,6 +1,6 @@
-# DUSTOR-
-it's a web extension which blocks ads and trackers and present them in a cute pop up. 
- 
+# DUSTOR Chrome Extension
+
+DUSTOR is a privacy-focused Chrome extension inspired by Brave, designed to block ads and trackers and show you real-time stats in a minimalist black and white popup.
 
 ## Features
 - Blocks ads and trackers using a curated domain list
